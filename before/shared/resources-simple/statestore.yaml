@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: dapr.io/v1alpha1
 kind: Component
 metadata:
@@ -10,3 +11,17 @@ spec:
     value: localhost:6379
   - name: redisPassword
     value: ""
+=======
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: pizzastatestore
+spec:
+  type: state.redis
+  version: v1
+  metadata:
+  - name: redisHost
+    value: localhost:6379
+  - name: redisPassword
+    value: ""
+>>>>>>> ea7b966a9f2437b7d019ccf6bebd021015a5fa15
