@@ -1,7 +1,10 @@
 using PizzaOrder.Services;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 using Scalar.AspNetCore;
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 

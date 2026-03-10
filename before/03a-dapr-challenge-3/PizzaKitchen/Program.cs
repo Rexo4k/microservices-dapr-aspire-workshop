@@ -10,6 +10,9 @@ builder.Services.AddOpenApi();
 =======
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers().AddDapr();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 var app = builder.Build();
