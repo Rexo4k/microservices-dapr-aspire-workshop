@@ -16,5 +16,7 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference();
 }
 
+app.UseCloudEvents();
+
 app.MapControllers();
 app.Run();
